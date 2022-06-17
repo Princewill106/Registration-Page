@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	background-image: url("bg-intro-desktop.png") ;
+	background-color: hsl(0, 100%, 74%);
+	
+}
+main{
+	display: flex;
+	width: 80%;
+	margin: auto;
+	place-items: center;
+    height: 70vh;
+    flex-direction: right;
+    flex-shrink: 1;
+
+}
+body .c1{
+    color: whitesmoke;
+	width: 50%;
+	padding: 10px;
+	margin: 10px;
+
+}
+body .c2{
+	width: 40%;
+
+
+}
+
+#top-c2{
+	background-color: blueviolet;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	justify-content: center;
+
+}
+#top-c2 p{
+}
+
+#bottom-c2{
+	background-color: white;
+	align-content: center;
+	padding-right: 25px;
+	margin: px;
+	border-radius: 10px;
+	box-sizing: border-box;
+
+}
+
+#bottom-c2 form{
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#bottom-c2 input{
+	width: 100%;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+#bottom-c2 button{
+	padding: 5px;
+	background-color: green;
+	margin: 10px;
+	width: 100%;
+	color: white;
+	border-radius: 5px;
+}
+form p {
+	color:grey;
+	width: 100%;
+	margin-left: 10px;
+}
+
+@media screen and (max-width: 375px) {
+	body{
+		background-image: url("bg-intro-mobile.png");
+	}
+	main{
+		width: 100%;
+		display: grid;
+		word-wrap: normal;
+
+	}
+
+}
